@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto Final</title>
+    <link rel="stylesheet" href="style.css?v=0.1">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="text-center">
+        <h1>Sistema AFD: Compilador</h1>
+    </header>
+    <!-- Hidden input -->
+    <input id="inputUpload" type="file">
+    <section style="display: flex; flex-direction: row-reverse; padding: 2rem; justify-content: center; align-items: center;">
+        <!-- Content section -->
+        <div id="content" class="container d-flex mx-auto text-center" style="width: 80vw;">
+            <label for="txtContent">Contenido en texto plano</label>
+            <textarea name="txtContent" id="txtContent" cols="30" rows="25" placeholder="Ingrese texto o suba un archivo"
+                style="resize: none; border-radius: 10px;"></textarea>
+            <p>Archivo seleccionado: <span id="fileName">Ninguno</span></p>
+            <div>
+                <button id="uploadFile" class="btn mx-auto">SUBIR ARCHIVO</button>
+                <button id="countText" class="btn mx-auto">CONTAR</button>
+            </div>
+        </div>
+        <!-- Result section-->
+        <div id="result" class="container mx-auto" style="width: 20vw;">
+            <p>Palabras reservadas: <span class="font-bold" id="keywordCount">0</span></p>
+            <p>Identificadores: <span class="font-bold" id="identificadoresCount">0</span></p>
+            <p>Operadores relacionales: <span class="font-bold" id="opsRelacionalesCount">0</span></p>
+            <p>Operadores lógicos: <span class="font-bold" id="opsLogicosCount">0</span></p>
+            <p>Operadores aritméticos: <span class="font-bold" id="opsAritmeticosCount">0</span></p>
+            <p>Asignaciones: <span class="font-bold" id="asignacionesCount">0</span></p>
+            <p>Numeros enteros: <span class="font-bold" id="enterosCount">0</span></p>
+            <p>Numeros decimales: <span class="font-bold" id="decimalesCount">0</span></p>
+            <p>Cadenas de caracteres: <span class="font-bold" id="stringCount">0</span></p>
+            <p>Comentarios multilínea: <span class="font-bold" id="comMultiCount">0</span></p>
+            <p>Comentarios en línea: <span class="font-bold" id="comLineaCount">0</span></p>
+            <p>Paréntesis: <span class="font-bold" id="parentesisCount">0</span></p>
+            <p>Llaves: <span class="font-bold" id="llavesCount">0</span></p>
+            <p class="text-danger">Errores: <span class="font-bold" id="errorCount">0</span></p>
+        </div>
+    </section>
+    <script src="script.js?v=0.1"></script>
+</body>
+
+</html>

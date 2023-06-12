@@ -1,0 +1,44 @@
+int dat.o
+double numer__o
+
+
+switch ( numero ) {
+	case 5 
+		if ( 3.5 >= 8 && dato < 16 ) {
+		/*Esto_deberia_funcionar()*/
+		/*Para_el_automata{}*/
+		valor = 18 * 5
+		}
+	case 3
+		for ( i = 0 i < 7 || j > 18 ) {
+		i = i - -3.16
+		}
+default
+	while ( num < 3 )
+		break
+
+/*Se termino
+
+}
+-----------------------------------
+Palabras reservadas : 10
+Identificadores : 11
+Operadores Relacionales : 5
+Operadores Lógicos : 2
+Operadores Aritméticos : 2
+Asignaciones : 3
+Número Enteros : 10
+Números Decimales : 2
+Comentarios : 2
+Paréntesis : 8
+Llaves : 6
+Errores : 2
+
+
+
+
+
+			
+
+
+

@@ -1,0 +1,90 @@
+:root {
+    --primary: #333;
+    --red: #f07575;
+    --blue: #5d93f8;
+    --green: #76f186;
+}
+
+*:not(textarea) {
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    background: var(--primary);
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-danger {
+    color: #f07575;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.btn {
+    width: fit-content;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--primary);
+    border: none;
+    border-radius: 10px;
+}
+
+#inputUpload {
+    display: none;
+}
+
+#content label,
+#content textarea {
+    margin-bottom: 10px;
+}
+
+#fileName {
+    font-weight: bold;
+    color: var(--blue);
+}
+
+#clearText.btn {
+    background: var(--red);
+}
+
+#uploadFile.btn {
+    background: var(--blue);
+}
+
+#countText.btn {
+    background: var(--green);
+}
+
+#result {
+    padding-top: 30px;
+}
+
+#webCount {
+    color: var(--blue);
+}
+
+#ebayCount {
+    color: var(--red);
+}
